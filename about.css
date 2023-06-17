@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair:ital,wght@0,300;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fee2f8;
+background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_about {
+    color: rgb(162, 22, 46);
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair', serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(131, 11, 59);
+}
+
+
+.person {
+    width: 10%;
+    margin-top:2%;
+    border-radius: 50%;
+}
+@media screen and (max-width : 400px){
+.person{
+    width: 20%;
+}
+}
+
+@keyframes wave {
+    0% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(1.3);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+
+.about_content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    color:#515353;
+    font-size: 16px;
+    font-family: 'Playfair', serif;
+}
