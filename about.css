@@ -34,29 +34,15 @@ background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
 }
 @media screen and (max-width : 400px){
 .person{
-    width: 20%;
+    width: 24%;
 }
 }
-
-@keyframes wave {
-    0% {
-        transform: scaleY(1);
-    }
-    50% {
-        transform: scaleY(1.3);
-    }
-    100% {
-        transform: scaleY(1);
-    }
-}
-
-
 .about_content {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2% auto;
+    padding: 20px;
+    background-color: #423d3d;
+    box-shadow: 4px 4px 7px rgba(7, 0, 0, 0.1);
 }
 
 h1 {

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Blog Website</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title"> Blog Website </h1>
+    </header>
+    <main>
+      <article>
+        <div class="image-container">
+          <img src="./project images/blog_image.png" alt="Airlines Image">
+        </div>
+        <div class="content">
+          <div class="date_links">
+            
+          <span class="date_post">Date :  15/09/2022</span>
+            <a href="https://github.com/vaibhavUsa05/Blog_Website" class="card-link"><i class="bi bi-github"></i>Github</a>
+          </div>
+          <h3>Building a Full-Stack Blog Website with User Authentication and Commenting System.</h3>
+          <p>Introduction:
+            In this blog post, we will explore the development process of a full-stack blog website using HTML5, CSS3, JavaScript, Bootstrap, Core PHP, and a MySQL database. The website will include essential features such as user authentication, the ability to write blog posts, and a comment and reply section. Additionally, we will focus on secure database storage and ensure that blogs are written with proper headings and vocabulary. Let's dive into the details of each feature and the implementation process.
+            
+             <p>
+
+              <b>User Authentication:</b>
+              User authentication is crucial to secure the website's content and allow specific privileges to registered users. To implement this feature, we can create a user registration form where users can sign up with their email addresses and passwords. We'll securely store the password hashes in the database using PHP's password hashing functions. For subsequent logins, we'll verify the entered credentials against the stored hashes to grant access.
+             </p>
+
+              <p>
+              <b>Writing Blog Posts:</b>
+              To enable users to write blog posts, we can create a form with input fields for the title, content, and any other relevant details. Upon submission, the data can be stored in the MySQL database, associating each blog post with the corresponding user. This way, we can retrieve and display the blog posts on the website.
+            
+             </p> 
+
+              <p><b>Comment and Reply Section:</b>
+                To facilitate user engagement, we'll implement a comment and reply section for each blog post. Users can submit their comments through a form, which will be stored in the database along with the post ID and user information. We can also allow users to reply to specific comments by associating each comment with its parent comment or post ID. The comments and replies can be displayed below each blog post to encourage discussion.
+                </p>
+
+              <p>
+                <b>Secure Database Storage:</b> 
+To ensure the security of user data, it's essential to protect the database from unauthorized access. We can achieve this by properly configuring user permissions in the MySQL database, allowing only specific operations for different user roles. Additionally, we should sanitize and validate user input to prevent SQL injection attacks. Prepared statements or parameterized queries can be used to interact with the database safely.
+            
+              </p>
+
+             <p> Building a full-stack blog website with user authentication, a blog writing feature, comment and reply section, 
+              secure database storage, and proper headings and vocabulary requires integrating various technologies and implementing specific functionalities. By utilizing HTML5, CSS3, JavaScript, Bootstrap, Core PHP, and MySQL, we can create a dynamic and engaging website. Remember to prioritize security by employing proper database access controls and validating user input. With these features in place, users can enjoy writing blogs, interacting through comments, and accessing content in a safe and user-friendly environment. </p>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <p class="author">Written by Vaibhav Tiwari</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Playfair:ital,wght@0,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Playfair:ital,wght@0,300;1,600&family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text&family=Playfair+Display&family=Playfair:ital,wght@0,300;1,600&family=Prompt:wght@100&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tick_tok{
+    height: 2vw;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Prompt', sans-serif;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 80%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    line-height: 1.6;
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Playfair', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Prompt', sans-serif;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: right;
+  }
+  
+  .author {
+    font-size: 14px;
+    color: #888;
+  }
+  .date_links{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair', serif;
+font-family: 'Playfair Display', serif;
+  }
+  a{
+    position: absolute;
+    right:5%;
+    text-decoration: none;
+  }
+  i{
+    margin-right: 2px;
+  }
+.summary_blog,li{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Playfair', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Prompt', sans-serif;
+  text-align: left;
+}
+.bold_centre{
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width:350px) {
+  .title{
+    font-size: 26px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
