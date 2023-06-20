@@ -121,7 +121,7 @@ letter-spacing: 2px;
   text-align: center;
   width: 40%;
   margin: auto;
-  min-height: 14vw;
+  min-height: 17vw;
   margin-top: 5%;
 }
 .card1_title,.card2_title,.card3_title{
@@ -138,7 +138,7 @@ font-family:'Times New Roman', Times, serif;
 }
 
  summary {
-  font-size: 16px;
+  font-size: 19px;
     margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 5px;
@@ -175,7 +175,9 @@ font-family:'Times New Roman', Times, serif;
 
 
 @media screen and (max-width : 600px) {
-  
+  summary {
+    font-size: 17px;
+  }
 .web_developemnt_projects{
   font-size:27px;
   letter-spacing: 1px;
