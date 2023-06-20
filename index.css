@@ -121,8 +121,9 @@ letter-spacing: 2px;
   text-align: center;
   width: 40%;
   margin: auto;
-  min-height: 17vw;
+  min-height: 15vw;
   margin-top: 5%;
+  margin-bottom:2%;
 }
 .card1_title,.card2_title,.card3_title{
 color:rgb(101, 10, 53);
@@ -156,7 +157,7 @@ font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   border:2px solid cyan;
   border-radius:7px;
-  padding:8px;
+  padding:7px;
 }
 
 .btns-tools{
