@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airlines Data Analysis</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Credit Card Fraud Detection</h1>
+    </header>
+    <main>
+      <article>
+        <div class="image-container">
+          <img src="./project images/Credit_Card_image.png" alt="Credit Card Fraud Detection Image">
+        </div>
+        <div class="content">
+          <div class="date_links">
+            
+          <span class="date_post">Date : 21/06/2023</span>
+            <a href="https://github.com/vaibhavUsa05/Credit-Card-Fraud-Detection---Machine-Learning" class="card-link"><i class="bi bi-github"></i>Github</a>
+          </div>
+          <h3>
+            Machine Learning Project: Addressing Credit Card Fraud Detection.</h3>
+          <p>
+            Credit card fraud is a significant concern for both consumers and financial institutions. Detecting fraudulent transactions accurately is crucial to prevent financial losses and maintain trust in the banking system. Machine learning techniques, such as logistic regression, are commonly employed for credit card fraud detection. However, these models can sometimes suffer from underfitting, resulting in suboptimal performance.
+             In this blog, we will explore the issue of underfitting in credit card fraud detection and discuss potential solutions. </p>  
+   
+          </p>
+
+
+          <p>
+            <b>Understanding the Dataset
+      
+              <br>
+              <small>TThe dataset contains 284,807 transactions with 31 features, including time, transaction amount, and anonymized variables V1-V28. The target variable is "Class," which indicates whether a transaction is fraudulent (Class 1) or legitimate (Class 0).
+
+              </small></b>
+    </p>
+
+    <p>
+      
+    <b>Dealing with Imbalanced Data
+      <br>
+      <small> Fraudulent transactions are typically rare compared to legitimate transactions, leading to imbalanced classes. To tackle this, we can apply undersampling, where we randomly select a subset of legitimate transactions to balance the dataset. 
+        In our case, we undersample the majority class (Class 0) to match the number of fraudulent transactions (Class 1).</small></b>
+            </p>
+            <p>
+                <div class="image-container">
+                    <img src="./project images/machine_learning2_image.png" alt="Image1">
+                  </div>
+                
+                <b>Feature Scaling
+                  <br>
+                  <small> Next, we preprocess the dataset by scaling the "Amount" feature using StandardScaler from the sklearn library. Scaling helps ensure that all features are on a similar scale, preventing certain features from dominating the learning process. 
+                    This step improves the model's ability to learn from the data effectively.</small></b>
+                        </p>
+                        <b>Train Test Split
+                            <br>
+                            <small>To evaluate our model's performance, we split the preprocessed dataset into training and testing sets using the train_test_split function from sklearn. 
+                                The training set will be used to train the logistic regression model, while the testing set will be used for evaluating its performance.</small></b>
+                                  </p>
+          
+
+        </div>
+          
+<p class="summary_blog">
+ <b> **The different classifiers were tested with best accuracy. **</b>
+<ul>
+  <li>
+    Linear Regression Model</li>
+  <li>Decision Tree Model</li>
+  <li>Random Forest Method.</li>
+</ul>
+<div class="image-container">
+    <img src="./project images/machine_learning2_image2.png" alt="Image1">
+  </div>
+
+  <p class="content">
+      
+    <b >Model Prediction</b>
+      <br>
+      <small>Logistic regression is a popular classification algorithm for fraud detection tasks due to its simplicity and interpretability. However, in some cases, logistic regression models may underfit the data, leading to poor predictive performance. 
+        Underfitting occurs when the model fails to capture the underlying patterns and complexities present in the data..</small>
+        Finally, I have  trained a logistic regression model and made predictions on the testing set to demonstrate the potential occurrence of underfitting.  </p>
+        </div>
+        
+      </article>
+    </main>
+    <footer>
+      <p class="author">Written by Vaibhav Tiwari</p>
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
